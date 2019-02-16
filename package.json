@@ -1,6 +1,6 @@
 {
   "name": "autocomplete-semantic-web",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Semantic Web Autocomplete for Atom Editor",
   "main": "./lib/main",
   "license": "MIT",
