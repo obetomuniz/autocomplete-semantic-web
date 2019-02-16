@@ -16,12 +16,10 @@ describe "Semantic Web Autocomplete", ->
   beforeEach ->
     waitsForPromise -> atom.packages.activatePackage('autocomplete-semantic-web')
     waitsForPromise -> atom.packages.activatePackage('language-html')
+    waitsForPromise -> atom.workspace.open('test.html')
 
     runs ->
       provider = atom.packages.getActivePackage('autocomplete-semantic-web').mainModule.getProvider()
-
-    waitsFor -> Object.keys(provider.completions).length > 0
-    waitsForPromise -> atom.workspace.open('test.html')
     runs -> editor = atom.workspace.getActiveTextEditor()
 
   it "autocompletes attribute names with 'item' scope a.k.a Schema.org", ->
