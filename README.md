@@ -1,6 +1,6 @@
 # Semantic Web Autocomplete for [Atom Editor](https://atom.io/) [![Build Status](https://travis-ci.org/obetomuniz/autocomplete-semantic-web.svg?branch=master)](https://travis-ci.org/obetomuniz/autocomplete-semantic-web)
 
-*This plugin supports suggestions for [Schema.org](http://schema.org/), [RDFa Lite](https://www.w3.org/TR/rdfa-lite/) and [WAI-ARIA](https://www.w3.org/WAI/intro/aria).*
+_This plugin supports suggestions for [Schema.org](http://schema.org/), [RDFa Lite](https://www.w3.org/TR/rdfa-lite/) and [WAI-ARIA](https://www.w3.org/WAI/intro/aria)._
 
 ![Semantic Web Autocomplete for Atom Editor](https://cloud.githubusercontent.com/assets/1680157/17541322/b0e4deba-5e94-11e6-8744-d1e938c9438f.gif)
 
@@ -20,7 +20,7 @@ $ apm link
 
 ## Cheat Sheet
 
-**Schema.org** *(with all attribute values)*
+**Schema.org** _(with all attribute values)_
 
 - [itemscope](http://schema.org/docs/gs.html#microdata_itemscope_itemtype)
 - [itemtype](http://schema.org/docs/gs.html#microdata_itemscope_itemtype)
@@ -34,7 +34,7 @@ $ apm link
 - [resource](https://www.w3.org/TR/rdfa-lite/#resource)
 - [prefix](https://www.w3.org/TR/rdfa-lite/#prefix)
 
-**WAI-ARIA** *(with all attribute values)*
+**WAI-ARIA** _(with all attribute values)_
 
 - [role](https://www.w3.org/TR/role-attribute/)
 - [aria-activedescendant](https://www.w3.org/TR/wai-aria/states_and_properties#aria-activedescendant)
